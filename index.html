@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragani Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" ><img src="images/logo.jpg" alt="Logo" class="logo"></a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="btn-contact" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="hero animated-gradient">
+    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
+        <div class="hero-text">
+            <p class="intro">WELCOME TO MY WORLD ✨</p>
+            <h1>Hi, I'm <span class="name">Ragani</span></h1>
+            <h2><span class="highlight">Web Developer & Designer</span></h2>
+            <p class="desc">Passionate about creating modern, responsive and user-focused websites with HTML, CSS, JS & Python. 
+                I love blending creativity with functionality to craft impactful digital experiences.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">My Projects</a>
+                <a href="C:\RAGANI-WORK\DOCUMENTS\RESUME_RAGANI.pdf" class="btn-outline" download>Download CV</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/ragani_2006?igsh=MXdzb3UIZDdkbmhkaQ==" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ragani-jha-3700a1320" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Ragani-2006" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-image floating-logo">
+            <img src="images/PHOTO.jpg" alt="Hero Image">
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about-section">
+    <div class="about-card" data-animate="fade-up">
+        <div class="about-image">
+            <img src="images/PHOTO.jpg" alt="Ragani">
+        </div>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I’m Ragani, a Computer Science student and aspiring web developer. I create modern, 
+            user-friendly designs that combine aesthetics with functionality.</p>
+            <p>With a strong foundation in HTML, CSS, JavaScript, and Python, I’m passionate about crafting interactive and responsive websites.</p>
+            <h3>Skills</h3>
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>Flask</span>
+                <span>Bootstrap</span>
+                <span>Core Java</span>
+                <span>Object Oriented Programming</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects-section">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+
+            <!-- Chatbot Project -->
+            <div class="project-card">
+                <img src="images/chatbot.jpg" alt="Chatbot Project">
+                <div class="overlay">
+                    <h3>Chatbot</h3>
+                    <div class="overlay-buttons">
+                        <button class="view-btn" 
+                            data-img="images/chatbot.jpg" 
+                            data-title="Chatbot" 
+                            data-desc="An AI-powered chatbot, Flask-based conversational chatbot, Local backend using Python & Flask, 
+                            Dynamic response handling,Clean UI with HTML/CSS/JS">
+                            View Details
+                        </button>
+                        <a href="http://127.0.0.1:5000" target="_blank" class="view-btn link-btn">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Amazon Clone Project -->
+            <div class="project-card">
+                <img src="C:\RAGANI-WORK\HTML\amazon_logoo.png" alt="Amazon Clone">
+                <div class="overlay">
+                    <h3>Amazon Clone</h3>
+                    <div class="overlay-buttons">
+                        <button class="view-btn" 
+                            data-img="C:\RAGANI-WORK\HTML\amazon_logoo.png" 
+                            data-title="Amazon Clone" 
+                            data-desc="A front-end Amazon UI clone built using HTML, CSS, and JavaScript with responsive design.">
+                            View Details
+                        </button>
+                        <a href="C:\RAGANI-WORK\HTML\Index.html" target="_blank" class="view-btn link-btn">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clock Project -->
+            <div class="project-card">
+                <img src="images/CLOCK.jpg" alt="Clock Project">
+                <div class="overlay">
+                    <h3>Clock</h3>
+                    <div class="overlay-buttons">
+                        <button class="view-btn" 
+                            data-img="images/clock.jpg" 
+                            data-title="Clock" 
+                            data-desc="A JavaScript-based real-time digital and analog clock with dynamic styling.">
+                            View Details
+                        </button>
+                        <a href="C:\RAGANI-WORK\HTML\CLOCK\index.html" target="_blank" class="view-btn link-btn">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- JS Drum Kit Project -->
+            <div class="project-card">
+                <img src="images/DRUMKIT.webp" alt="JS Drum Kit">
+                <div class="overlay">
+                    <h3>JS Drum Kit</h3>
+                    <div class="overlay-buttons">
+                        <button class="view-btn" 
+                            data-img="images/js-drum.jpg" 
+                            data-title="JS Drum Kit" 
+                            data-desc="An interactive drum kit built with JavaScript where users play sounds using keys.">
+                            View Details
+                        </button>
+                        <a href="C:\RAGANI-WORK\JS-30 DAYS\JS DRUM KIT\index.html" target="_blank" class="view-btn link-btn">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pomodoro Timer Project -->
+            <div class="project-card">
+                <img src="images/Pomodoro.jpg" alt="Pomodoro Timer">
+                <div class="overlay">
+                    <h3>Pomodoro Timer</h3>
+                    <div class="overlay-buttons">
+                        <button class="view-btn" 
+                            data-img="images/pomodoro.jpg" 
+                            data-title="Pomodoro Timer" 
+                            data-desc="A productivity timer app implementing the Pomodoro technique using JavaScript.">
+                            View Details
+                        </button>
+                        <a href="C:\RAGANI-WORK\P\p.html" target="_blank" class="view-btn link-btn">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tic Tac Toe Project -->
+            <div class="project-card">
+                <img src="images/TIC TAC TOE.webp" alt="Tic Tac Toe Game">
+                <div class="overlay">
+                    <h3>Tic Tac Toe</h3>
+                    <div class="overlay-buttons">
+                        <button class="view-btn" 
+                            data-img="images/tic-tac-toe.jpg" 
+                            data-title="Tic Tac Toe" 
+                            data-desc="A classic Tic Tac Toe game built using HTML, CSS, and JavaScript.">
+                            View Details
+                        </button>
+                        <a href="C:\RAGANI-WORK\TIC TAC TOE\index.html" target="_blank" class="view-btn link-btn">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div id="project-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modal-img" src="" alt="">
+        <h3 id="modal-title"></h3>
+        <p id="modal-desc"></p>
+    </div>
+</div>
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="contact-desc">Have a question or want to work together? Fill out the form below:</p>
+        <form id="contact-form" class="contact-form">
+    <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+        <input type="number" name="phone" placeholder="Your Contact Number" required>
+    </div>
+    <div class="form-group">
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn-primary">Send Message</button>
+    <p id="form-status" class="form-status"></p>
+</form>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
